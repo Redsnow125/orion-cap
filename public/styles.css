@@ -1,0 +1,56 @@
+header{
+    background-color: darkgoldenrod;
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    justify-content: center;
+}
+#welcome{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+}
+
+#ballText{
+    display: flex;
+    color: white;
+    visibility: visible;
+}
+
+
+.container{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    height: 40vw;
+    width: 100vw;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+#circle{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 200px;
+}
+
+#question{
+
+}
+
+#triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+    left: 50px;
+}
