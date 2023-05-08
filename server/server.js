@@ -14,6 +14,6 @@ app.get('/', (req,res) => {
     res.status(200).sendFile(path.join(__dirname, '../public/home.html'))
 })
 
-app.post(__dirname, '../public/home.html', submit)
+app.post('/8ball', submit)
 
 app.listen(4000, console.log('server running on port 4000'))
